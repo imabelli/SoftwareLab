@@ -1,0 +1,209 @@
+Script started on Sun 03 Feb 2019 11:35:57 AM CST
+[?1034hili@kamek (~) % whoami
+ili
+ili@kamek (~) % echo "4.1.2 Exercises"
+4.1.2 Exercises
+ili@kamek (~) % man ls
+[?1049h[?1h=LS(1)                            User Commands                           LS(1)
+
+[1mNAME[0m
+       ls - list directory contents
+
+[1mSYNOPSIS[0m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       List  information about the FILEs (the current directory by default).  Sort entries alphabetically if
+       none of [1m-cftuvSUX[0m nor [1m--sort[0m.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       [1m-a[0m, [1m--all[0m
+              do not ignore entries starting with .
+
+       [1m-A[0m, [1m--almost-all[0m
+              do not list implied . and ..
+
+       [1m--author[0m
+              with [1m-l[0m, print the author of each file
+
+       [1m-b[0m, [1m--escape[0m
+              print octal escapes for nongraphic characters
+
+       [1m--block-size[0m=[4mSIZE[24m
+              use SIZE-byte blocks.  See SIZE format below
+
+:[K[K/[Khh[Kuu[Kmm[Kaa[Knn[K--[Krr[Kee[Kaa[K[1;1HLS(1)                            User Commands                           LS(1)
+[2;1H
+[3;1H[1mNAME[0m
+[4;1H       ls - list directory contents
+[5;1H
+[6;1H[1mSYNOPSIS[0m
+[7;1H       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[8;1H
+[9;1H[1mDESCRIPTION[0m
+[10;1H       List  information about the FILEs (the current directory by default).  Sort entries alphabetically if
+[11;1H       none of [1m-cftuvSUX[0m nor [1m--sort[0m.
+[12;1H
+[13;1H       Mandatory arguments to long options are mandatory for short options too.
+[14;1H
+[15;1H       [1m-a[0m, [1m--all[0m
+[16;1H              do not ignore entries starting with .
+[17;1H
+[18;1H       [1m-A[0m, [1m--almost-all[0m
+[19;1H              do not list implied . and ..
+[20;1H
+[21;1H       [1m--author[0m
+[22;1H              with [1m-l[0m, print the author of each file
+[23;1H
+[24;1H       [1m-b[0m, [1m--escape[0m
+[25;1H              print octal escapes for nongraphic characters
+[26;1H
+[27;1H       [1m--block-size[0m=[4mSIZE[24m
+[28;1H              use SIZE-byte blocks.  See SIZE format below
+[29;1H
+[30;1H[1;1HLS(1)                            User Commands                           LS(1)
+[2;1H
+[3;1H[1mNAME[0m
+[4;1H       ls - list directory contents
+[5;1H
+[6;1H[1mSYNOPSIS[0m
+[7;1H       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...
+[8;1H
+[9;1H[1mDESCRIPTION[0m
+[10;1H       List  information about the FILEs (the current directory by default).  Sort entries alphabetically if
+[11;1H       none of [1m-cftuvSUX[0m nor [1m--sort[0m.
+[12;1H
+[13;1H       Mandatory arguments to long options are mandatory for short options too.
+[14;1H
+[15;1H       [1m-a[0m, [1m--all[0m
+[16;1H              do not ignore entries starting with .
+[17;1H
+[18;1H       [1m-A[0m, [1m--almost-all[0m
+[19;1H              do not list implied . and ..
+[20;1H
+[21;1H       [1m--author[0m
+[22;1H              with [1m-l[0m, print the author of each file
+[23;1H
+[24;1H       [1m-b[0m, [1m--escape[0m
+[25;1H              print octal escapes for nongraphic characters
+[26;1H
+[27;1H       [1m--block-size[0m=[4mSIZE[24m
+[28;1H              use SIZE-byte blocks.  See SIZE format below
+[29;1H
+[30;1H...skipping...
+       [1m-h[0m, [1m--[0m[1m[7mhuman-rea[27m[0m[1mdable[0m
+              with [1m-l[0m, print sizes in human readable format (e.g., 1K 234M 2G)
+
+       [1m--si[0m   likewise, but use powers of 1000 not 1024
+
+       [1m-H[0m, [1m--dereference-command-line[0m
+              follow symbolic links listed on the command line
+
+       [1m--dereference-command-line-symlink-to-dir[0m
+              follow each command line symbolic link that points to a directory
+
+       [1m--hide[0m=[4mPATTERN[24m
+              do not list implied entries matching shell PATTERN (overridden by [1m-a[0m or [1m-A[0m)
+
+       [1m--indicator-style[0m=[4mWORD[24m
+              append  indicator  with  style  WORD  to  entry  names:  none (default), slash ([1m-p[0m), file-type
+              ([1m--file-type[0m), classify ([1m-F[0m)
+
+       [1m-i[0m, [1m--inode[0m
+              print the index number of each file
+
+       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m
+              do not list implied entries matching shell PATTERN
+
+       [1m-k[0m     like [1m--block-size[0m=[4m1K[24m
+
+       [1m-l[0m     use a long listing format
+
+       [1m-L[0m, [1m--dereference[0m
+:[K[K[?1l>[?1049lili@kamek (~) % echo "-h is the flag [K for human-readable output, discovered by typing '/huam[K[Kman-readable' in the manual"
+-h is the flag for human-readable output, discovered by typing '/human-readable' in the manual
+ili@kamek (~) % man man
+[?1049h[?1h=man(1)                                                                  man(1)
+
+[1mNAME[0m
+       man - format and display the on-line manual pages
+
+[1mSYNOPSIS[0m
+       [1mman[0m  [[1m-acdDfFhkKtvVwW[0m] [[1m--path[0m] [[1m-m[0m [4msystem[24m] [[1m-p[0m [4mstring[24m] [[1m-C[0m [4mconfig_file[24m] [[1m-M[0m [4mpathlist[24m] [[1m-P[0m [4mpager[24m] [[1m-B[0m
+       [4mbrowser[24m] [[1m-H[0m [4mhtmlpager[24m] [[1m-S[0m [4msection_list[24m] [[4msection[24m] [4mname[24m [4m...[24m
+
+[1mDESCRIPTION[0m
+       [1mman[0m formats and displays the on-line manual pages.  If you specify [4msection[24m, [1mman[0m only  looks  in  that
+       section  of the manual.  [4mname[24m is normally the name of the manual page, which is typically the name of
+       a command, function, or file.  However, if [4mname[24m contains a slash ([1m/[0m) then [1mman[0m interprets it as a file
+       specification, so that you can do [1mman[0m [1m./foo.5[0m or even [1mman[0m [1m/cd/foo/bar.1.gz[0m.
+
+       See below for a description of where [1mman[0m looks for the manual page files.
+
+[1mMANUAL[0m [1mSECTIONS[0m
+       The standard sections of the manual include:
+
+       [1m1[0m      User Commands
+
+       [1m2[0m      System Calls
+
+       [1m3[0m      C Library Functions
+
+       [1m4[0m      Devices and Special Files
+
+       [1m5[0m      File Formats and Conventions
+:[K[K[?1l>[?1049lili@kamek (~) % apropos calendar
+cal                  (1)  - displays a calendar
+cal                  (1p)  - print a calendar
+difftime             (3p)  - compute the difference between two calendar time values
+orage                (1)  - Calendar for the Xfce Desktop Environment
+zshcalsys            (1)  - zsh calendar system
+ili@kamek (~) % man cal
+[?1049h[?1h=CAL(1)                    BSD General Commands Manual                   CAL(1)
+
+[1mNAME[0m
+     [1mcal[0m - displays a calendar
+
+[1mSYNOPSIS[0m
+     [1mcal[0m [[1m-smjy13[0m] [[[[4mday[24m] [4mmonth[24m] [4myear[24m]
+
+[1mDESCRIPTION[0m
+     [1mCal[0m displays a simple calendar.  If arguments are not specified, the current month is displayed.  The
+     options are as follows:
+
+     [1m-1[0m      Display single month output.  (This is the default.)
+
+     [1m-3[0m      Display prev/current/next month output.
+
+     [1m-s[0m      Display Sunday as the first day of the week.
+
+     [1m-m[0m      Display Monday as the first day of the week.
+
+     [1m-j[0m      Display Julian dates (days one-based, numbered from January 1).
+
+     [1m-y[0m      Display a calendar for the current year.
+
+     [1m-V[0m      Display version information and exit.
+
+     A single parameter specifies the year (1 - 9999) to be displayed; note the year must be fully speci-
+     fied: “cal 89” will [4mnot[24m display a calendar for 1989.  Two parameters denote the month (1 - 12) and
+     year.  Three parameters denote the day (1-31), month and year, and the day will be highlighted if the
+:[K[K[?1l>[?1049lili@kamek (~) % echo "4.2.2 Exercises"
+4.2.2 Exercises
+ili@kamek (~) % echo "ls *.png"
+ls *.png
+ili@kamek (~) % echo "rm *hiking*"
+rm *hiking*
+ili@kamek (~) % mkdir data_science_figures[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho "mkdir data_science_figures"
+mkdir data_science_figures
+ili@kamek (~) % echo "mkdir "labb[K_pictures[K[K[K[K[K[K[K[K[K[K[K[K[Klab_pictures"
+mkdir lab_pictures
+ili@kamek (~) % mv ([K*datasci* data_science_figures/[1@e[1@c[1@h[1@o[1@ [1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+mv *datasci* data_science_figures/
+ili@kamek (~) % echo "mv *lab* lab_pictures"/"[C"[K
+mv *lab* lab_pictures/
+ili@kamek (~) % exit
+exit
+
+Script done on Sun 03 Feb 2019 11:42:44 AM CST

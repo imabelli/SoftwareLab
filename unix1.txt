@@ -1,0 +1,46 @@
+Script started on Sun 27 Jan 2019 04:41:40 PM CST
+[?1034hili@kamek (~) % echo '[K[K[K[K[K[Kwhoami
+ili
+ili@kamek (~) % echo "3.1.2 Exercises'[K"
+3.1.2 Exercises
+ili@kamek (~) % echo 'Isabel Li'
+Isabel Li
+ili@kamek (~) % clear
+[H[2Jili@kamek (~) % echo '[K'3.2.2.[K Exercises'
+3.2.2 Exercises
+ili@kamek (~) % cd /
+ili@kamek (/) % cd ~
+ili@kamek (/home/ecelrc/students/ili) % cd /
+ili@kamek (/) % cd [K
+ili@kamek (/home/ecelrc/students/ili) % cd /
+ili@kamek (/) % cd /home/ecelrc/students/ili
+ili@kamek (/home/ecelrc/students/ili) % cd EE360C/Lab1/
+ili@kamek (/home/ecelrc/students/ili/EE360C/Lab1) % ls
+360C_LAB1_WORKING_DIR__  ijl283_li_isabel.zip  TestDriver.class
+ExpectedOutput.txt	 test_code	       TestDriver.java
+ili@kamek (/home/ecelrc/students/ili/EE360C/Lab1) % echo '3.3.2 Exercsi[K[Kises'
+3.3.2 Exercises
+ili@kamek (/home/ecelrc/students/ili/EE360C/Lab1) % mkdir [K[K[K[K[K[Kcd ~
+ili@kamek (/home/ecelrc/students/ili) % mkdir workbench
+ili@kamek (/home/ecelrc/students/ili) % touch [K[K[K[K[K[Ktouch workbench/readme.txt
+ili@kamek (/home/ecelrc/students/ili) % echo "1" >> workbench/readme.txt
+ili@kamek (/home/ecelrc/students/ili) % echo "1" >> workbench/readme.txt[C[C[C[C[1P[1@2
+ili@kamek (/home/ecelrc/students/ili) % echo "2" >> workbench/readme.txt[C[1P[1@3
+ili@kamek (/home/ecelrc/students/ili) % cat readme[K[K[K[K[K[Kworkbench/readme.txt 
+1
+2
+3
+ili@kamek (/home/ecelrc/students/ili) % ls > workbench/list.txt
+ili@kamek (/home/ecelrc/students/ili) % wc workbench/list.txt
+ 5  5 58 workbench/list.txt
+ili@kamek (/home/ecelrc/students/ili) % echo '3.4.2 Exercises'
+3.4.2 Exercises
+ili@kamek (/home/ecelrc/students/ili) % touch message.txt
+ili@kamek (/home/ecelrc/students/ili) % mv message.txt workbench/
+ili@kamek (/home/ecelrc/students/ili) % cp wokr[K[Krkbench/message.txt ~
+ili@kamek (/home/ecelrc/students/ili) % rm ~/message.txt 
+ili@kamek (/home/ecelrc/students/ili) % rm workbench/message.txt 
+ili@kamek (/home/ecelrc/students/ili) % exit
+exit
+
+Script done on Sun 27 Jan 2019 04:54:03 PM CST
